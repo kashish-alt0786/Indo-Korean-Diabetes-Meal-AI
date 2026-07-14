@@ -80,7 +80,11 @@ if detected:
         st.session_state.history.append({"date": datetime.datetime.now().strftime("%m/%d"), "food": detected, "gl": data['gl']})
         st.toast("Added!")
     if st.session_state.history:
-        st.bar_chart(pd.DataFrame(st.session_state.history), x="date", y="gl")
+# NEW — replace both chart lines with:
+if len(st.session_state.history) > 0:
+    df = pd.DataFrame(st.session_state.history)
+    st.bar_chart(df, x="date", y="gl")
+    st.dataframe(df, use_container_width=True)  # cleaner than table
     else:
         st.caption("Add meals to track GL trends.")
 
