@@ -1,11 +1,11 @@
 # 💙 NutriGuard AI
 
-## AI-Powered Diabetes Nutrition Intelligence System
+## AI-Based Diabetes Nutrition Assistant
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![Machine Learning](https://img.shields.io/badge/AI-Machine%20Learning-green)
-![Healthcare AI](https://img.shields.io/badge/Healthcare-Digital%20Health-purple)
+![Healthcare AI](https://img.shields.io/badge/Healthcare-AI-purple)
 
 ---
 
@@ -17,109 +17,103 @@ https://nutriguard-ai-rrzi6rnezvcba9dhtgzlrm.streamlit.app/
 
 ---
 
-## 📌 Overview
+## 📌 About The Project
 
-**NutriGuard AI** is an AI-powered nutrition intelligence system designed to help users make diabetes-aware food decisions.
+**NutriGuard AI** is an AI-based diabetes nutrition assistant developed to explore how artificial intelligence can help people make better food choices.
 
-The application combines **Artificial Intelligence, Machine Learning, nutrition analysis, and healthcare informatics** to analyze meals and provide personalized dietary insights.
+The project analyzes meal information and provides nutrition insights such as calories, carbohydrates, protein, fat, fiber, and diabetes-aware recommendations.
 
-The goal is to support preventive healthcare by transforming food information into understandable health recommendations.
-
----
-
-# ✨ Key Features
-
-## 🍽️ Food Nutrition Analysis
-
-- Analyze food items and meals
-- Estimate nutritional values:
-  - Calories
-  - Carbohydrates
-  - Protein
-  - Fat
-  - Fiber
+This project combines my interests in **Artificial Intelligence, Machine Learning, and Healthcare Technology** to explore the role of AI in preventive healthcare.
 
 ---
 
-## 🩺 Diabetes-Aware Insights
+# ✨ Features
 
-Provides nutrition guidance based on diabetes-related considerations:
+## 🍽️ Nutrition Analysis
 
-- Carbohydrate awareness
-- Glycemic impact estimation
-- Healthier food alternatives
+The application provides information about:
+
+- Calories
+- Carbohydrates
+- Protein
+- Fat
+- Fiber
+
+---
+
+## 🩺 Diabetes-Aware Food Insights
+
+NutriGuard AI provides food-related insights by considering:
+
+- Carbohydrate content
+- Glycemic impact
+- Healthier alternatives
 - Balanced meal suggestions
 
 ---
 
-## 🤖 Artificial Intelligence Integration
+## 🤖 AI & Machine Learning Approach
 
-NutriGuard AI integrates machine learning concepts for:
+The project explores the use of AI techniques for:
 
-- Food intelligence
-- Nutrition prediction
-- Personalized recommendations
-- Health-focused decision support
-
----
-
-## 🔍 Explainable AI Approach
-
-The system focuses on transparency by explaining:
-
-- Why a food choice may be beneficial
-- Potential nutritional concerns
-- Factors affecting recommendations
-
-Explainability is important in healthcare AI because users should understand AI-generated suggestions.
+- Food information processing
+- Nutrition analysis
+- Personalized suggestions
+- Health-focused recommendations
 
 ---
 
-# 🏗️ System Architecture
+## 🔍 Explainable AI Concept
+
+A key focus of this project is making AI suggestions easier to understand.
+
+The system highlights:
+
+- Important nutrition factors
+- Reasons behind recommendations
+- Possible improvements in food choices
+
+---
+
+# 🏗️ How It Works
 
 ```
 User Food Input
         |
         ↓
-Food Analysis Engine
+Food Information Processing
         |
         ↓
-Nutrition Information Processing
+Nutrition Analysis
         |
         ↓
-Diabetes-Aware Recommendation System
+Diabetes-Aware Insights
         |
         ↓
-Explainable Health Insights
+Personalized Recommendations
 ```
 
 ---
 
-# 🛠️ Technology Stack
+# 🛠️ Technologies Used
 
-## Programming
+## Programming Language
 
 - Python
 
-## Application Framework
+## Framework
 
 - Streamlit
-
-## Machine Learning
-
-- Scikit-learn
-- Machine Learning Models
 
 ## Data Processing
 
 - Pandas
 - NumPy
 
-## Healthcare AI Concepts
+## Machine Learning Concepts
 
-- Digital Health
-- Personalized Nutrition
-- Explainable AI
+- Scikit-learn
+- Explainable AI concepts
 
 ---
 
@@ -150,13 +144,13 @@ Clone the repository:
 git clone https://github.com/kashish-alt0786/NutriGuard-AI.git
 ```
 
-Move into the project folder:
+Open the project folder:
 
 ```bash
 cd NutriGuard-AI
 ```
 
-Install dependencies:
+Install required libraries:
 
 ```bash
 pip install -r requirements.txt
@@ -170,26 +164,30 @@ streamlit run app.py
 
 ---
 
-# 📊 Healthcare Application
+# 🎯 Project Motivation
 
-NutriGuard AI explores the intersection of:
+With the increasing use of AI in healthcare, I wanted to explore how machine learning and nutrition data can be combined to support healthier decision-making.
 
-- Artificial Intelligence
-- Biomedical Informatics
-- Nutrition Science
-- Preventive Healthcare
+NutriGuard AI is a learning project that demonstrates how AI can be applied to a real-world healthcare problem: diabetes nutrition awareness.
 
-The project aims to demonstrate how AI can assist users in making informed dietary decisions.
+---
+
+# 🔮 Future Improvements
+
+Possible future additions:
+
+- Food image recognition using AI
+- Larger food nutrition database
+- More personalized recommendations
+- Integration with health tracking data
 
 ---
 
 # ⚕️ Medical Disclaimer
 
-NutriGuard AI provides educational nutritional insights only.
+NutriGuard AI provides educational nutrition insights only.
 
-It is not a replacement for professional medical diagnosis, treatment, or advice.
-
-Users should consult healthcare professionals for medical decisions.
+It is not a replacement for professional medical advice, diagnosis, or treatment.
 
 ---
 
@@ -197,14 +195,14 @@ Users should consult healthcare professionals for medical decisions.
 
 **Kashish**
 
-AI & Healthcare Technology Enthusiast
+High School Student | AI & Healthcare Technology Enthusiast
 
 Interested in:
 
 - Artificial Intelligence
 - Machine Learning
 - Biomedical Informatics
-- Digital Healthcare Solutions
+- Digital Healthcare
 
 ---
 
@@ -238,5 +236,4 @@ https://nutriguard-ai-rrzi6rnezvcba9dhtgzlrm.streamlit.app/
 
 ## 💙 NutriGuard AI
 
-Making nutrition smarter through  
-Artificial Intelligence and Healthcare Innovation.
+Exploring the possibilities of AI for healthier food decisions.
