@@ -583,7 +583,7 @@ button1, button2 = st.columns(2)
 with button1:
     st.link_button(
         "💻 GitHub Repository",
-        "https://github.com/"
+        "https://github.com/kashish-alt0786/Indo-Korean-Diabetes-Meal-AI"
     )
 
 
