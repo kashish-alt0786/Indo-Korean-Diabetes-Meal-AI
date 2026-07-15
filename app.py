@@ -155,7 +155,7 @@ food_database = {
 
 "Brown Rice Bibimbap":{
 "food_name":"Brown Rice Bibimbap",
-"calories":520,
+"calories":520,FFF
 "carbs":60,
 "protein":18,
 "fat":14,
@@ -328,20 +328,18 @@ selected_food = st.selectbox(
 
 result = food_database[selected_food]
 
-    result = food_database[selected_food]
+st.markdown("---")
 
-    st.markdown("---")
+st.header("📊 Nutrition Analysis")
 
-    st.header("📊 Nutrition Analysis")
+col1, col2, col3 = st.columns(3)
 
-    col1, col2, col3 = st.columns(3)
+with col1:
 
-    with col1:
-
-        st.metric(
-            "Calories",
-            f"{result['calories']} kcal"
-        )
+    st.metric(
+        "Calories",
+        f"{result['calories']} kcal"
+    )
 
         st.metric(
             "Carbohydrates",
