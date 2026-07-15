@@ -352,23 +352,23 @@ with swap1:
     st.write(result["food_name"])
 
 with swap2:
-
     st.markdown("### Recommended Swap")
-
     st.success(result["healthy_swap"])
 
-st.write("### Why is it healthier?")
+st.subheader("💡 Why is this healthier?")
 
-st.write(result["swap_reason"])
-White Rice Bibimbap
-Brown Rice Bibimbap
-Higher fiber
+benefits = [
+    "Higher dietary fiber",
+    "Lower estimated Glycemic Load (GL)",
+    "Slower glucose absorption",
+    "Better post-meal blood sugar control"
+]
 
-Lower Glycemic Load
+for benefit in benefits:
+    st.write(f"✅ {benefit}")
 
-Slower glucose absorption
+st.info(result["swap_reason"])
 
-Better post-meal blood sugar response
 st.divider()
 
 st.warning("""
