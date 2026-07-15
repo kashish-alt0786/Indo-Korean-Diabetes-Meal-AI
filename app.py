@@ -331,12 +331,11 @@ with g2:
 st.subheader("💡 Why did the AI give this result?")
 
 st.info(result["reason"])
-• High carbohydrate content
-
-• Refined grains detected
-
-• Low dietary fiber
-
+st.markdown("""
+- High carbohydrate content
+- Refined grains
+- Low dietary fiber
+""")
 • Rapid glucose absorption expected
 st.divider()
 
