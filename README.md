@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9+-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![Machine Learning](https://img.shields.io/badge/AI-Machine%20Learning-green)
-![Healthcare AI](https://img.shields.io/badge/Healthcare-AI-purple)
+![Healthcare AI](https://img.shields.io/badge/Healthcare-Digital%20Health-purple)
 
 ---
 
@@ -17,21 +17,21 @@ https://nutriguard-ai-rrzi6rnezvcba9dhtgzlrm.streamlit.app/
 
 ---
 
-## 📌 About The Project
+## 📌 Overview
 
-**NutriGuard AI** is an AI-based diabetes nutrition assistant developed to explore how artificial intelligence can help people make better food choices.
+**NutriGuard AI** is an AI-based nutrition assistant designed to help users understand their food choices and make diabetes-aware decisions.
 
-The project analyzes meal information and provides nutrition insights such as calories, carbohydrates, protein, fat, fiber, and diabetes-aware recommendations.
+The project explores the use of **Artificial Intelligence, Machine Learning, nutrition analysis, and healthcare informatics** to provide nutritional insights and personalized suggestions.
 
-This project combines my interests in **Artificial Intelligence, Machine Learning, and Healthcare Technology** to explore the role of AI in preventive healthcare.
+The goal of this project is to explore how AI can support preventive healthcare through better nutrition awareness.
 
 ---
 
-# ✨ Features
+# ✨ Key Features
 
-## 🍽️ Nutrition Analysis
+## 🍽️ Food Nutrition Analysis
 
-The application provides information about:
+The application provides nutritional information about food items and meals:
 
 - Calories
 - Carbohydrates
@@ -41,41 +41,41 @@ The application provides information about:
 
 ---
 
-## 🩺 Diabetes-Aware Food Insights
+## 🩺 Diabetes-Aware Insights
 
 NutriGuard AI provides food-related insights by considering:
 
 - Carbohydrate content
-- Glycemic impact
-- Healthier alternatives
+- Glycemic impact estimation
+- Healthier food alternatives
 - Balanced meal suggestions
 
 ---
 
-## 🤖 AI & Machine Learning Approach
+## 🤖 Artificial Intelligence Integration
 
-The project explores the use of AI techniques for:
+NutriGuard AI applies AI and machine learning concepts for:
 
-- Food information processing
-- Nutrition analysis
+- Food information analysis
+- Nutrition insights
 - Personalized suggestions
 - Health-focused recommendations
 
 ---
 
-## 🔍 Explainable AI Concept
+## 🔍 Explainable AI Approach
 
-A key focus of this project is making AI suggestions easier to understand.
+The project focuses on making AI-based suggestions easier to understand by explaining:
 
-The system highlights:
+- Why a food choice may be beneficial
+- Possible nutritional concerns
+- Factors influencing recommendations
 
-- Important nutrition factors
-- Reasons behind recommendations
-- Possible improvements in food choices
+Explainability is important in healthcare AI because users should understand how AI-generated suggestions are formed.
 
 ---
 
-# 🏗️ How It Works
+# 🏗️ System Architecture
 
 ```
 User Food Input
@@ -87,33 +87,39 @@ Food Information Processing
 Nutrition Analysis
         |
         ↓
-Diabetes-Aware Insights
+Diabetes-Aware Recommendation System
         |
         ↓
-Personalized Recommendations
+Explainable Health Insights
 ```
 
 ---
 
-# 🛠️ Technologies Used
+# 🛠️ Technology Stack
 
-## Programming Language
+## Programming
 
 - Python
 
-## Framework
+## Application Framework
 
 - Streamlit
+
+## Machine Learning
+
+- Scikit-learn
+- Machine Learning Concepts
 
 ## Data Processing
 
 - Pandas
 - NumPy
 
-## Machine Learning Concepts
+## Healthcare AI Concepts
 
-- Scikit-learn
-- Explainable AI concepts
+- Digital Health
+- Personalized Nutrition
+- Explainable AI
 
 ---
 
@@ -144,13 +150,13 @@ Clone the repository:
 git clone https://github.com/kashish-alt0786/NutriGuard-AI.git
 ```
 
-Open the project folder:
+Move into the project folder:
 
 ```bash
 cd NutriGuard-AI
 ```
 
-Install required libraries:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -164,19 +170,24 @@ streamlit run app.py
 
 ---
 
-# 🎯 Project Motivation
+# 📊 Healthcare Application
 
-With the increasing use of AI in healthcare, I wanted to explore how machine learning and nutrition data can be combined to support healthier decision-making.
+NutriGuard AI explores the connection between:
 
-NutriGuard AI is a learning project that demonstrates how AI can be applied to a real-world healthcare problem: diabetes nutrition awareness.
+- Artificial Intelligence
+- Biomedical Informatics
+- Nutrition Science
+- Preventive Healthcare
+
+This project demonstrates how AI can assist users in understanding nutrition information and making more informed food choices.
 
 ---
 
 # 🔮 Future Improvements
 
-Possible future additions:
+Possible future improvements include:
 
-- Food image recognition using AI
+- AI-based food image recognition
 - Larger food nutrition database
 - More personalized recommendations
 - Integration with health tracking data
@@ -185,9 +196,11 @@ Possible future additions:
 
 # ⚕️ Medical Disclaimer
 
-NutriGuard AI provides educational nutrition insights only.
+NutriGuard AI provides educational nutritional insights only.
 
-It is not a replacement for professional medical advice, diagnosis, or treatment.
+It is not a replacement for professional medical diagnosis, treatment, or advice.
+
+Users should consult healthcare professionals for medical decisions.
 
 ---
 
@@ -195,14 +208,14 @@ It is not a replacement for professional medical advice, diagnosis, or treatment
 
 **Kashish**
 
-High School Student | AI & Healthcare Technology Enthusiast
+AI & Healthcare Technology Enthusiast
 
 Interested in:
 
 - Artificial Intelligence
 - Machine Learning
 - Biomedical Informatics
-- Digital Healthcare
+- Digital Healthcare Solutions
 
 ---
 
@@ -236,4 +249,5 @@ https://nutriguard-ai-rrzi6rnezvcba9dhtgzlrm.streamlit.app/
 
 ## 💙 NutriGuard AI
 
-Exploring the possibilities of AI for healthier food decisions.
+Exploring the possibilities of Artificial Intelligence  
+for healthier food decisions.
